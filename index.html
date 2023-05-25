@@ -14,12 +14,25 @@
     </header>
     <main>
         <div class="card">
-            <div class="figure">
-                <div class="example-square"></div>
+            
+            <div class="pembuka">
+            <h1>Welcome to Katik</h1>
+            <p>Hai Sobat, Selamat datang di Katik :]</p>
+            <p>Sebuah web apps sederhana yang berfungsi untuk 
+                menghitung nilai luas persegi</p>
             </div>
+
+            <div class="kotak-persegi">
+            <span>Luas Persegi</span>
+            </div>
+
+            <div>
+                <img class="figure" src="asset/Persegi.png">
+            </div>
+
             <div class="formula-description">
                 <p>Rumus Luas Persegi yaitu:</p>
-                <p>L = S x S</p>
+                <p class="rumus-luas">L = S x S</p>
     
                 <p>Dimana:</p>
                 <p>L = Luas</p>
@@ -28,13 +41,13 @@
             <div>
                 <form>
                     <h1>Hitung Luas Persegi</h1>
-                    <input id="sisi-luas" name="sisi-luas" required>
+                    <input type="text" id="sisi-luas" name="sisi-luas" required placeholder="Nilai Sisi">
 
                     <p class="result-luas" id="rumus-luas">L = S x S</p>
-                    <p class="result-luas" id="perhitungan-luas"></p>
-                    <p class="result-luas">L =<span id="output-luas"></span></p>
+                    <p class="result-luas">L = <span id="perhitungan-luas"></span> x <span id="perhitungan-luas2"></span></p>
+                    <p class="result-luas">L = <span id="output-luas"></span></p>
 
-                    <button name="hitung-luas" onclick="hitungluas()">Hitung</button>
+                    <button name="hitung-luas" onclick="hitungluas()" type="button" >Hitung</button>
                     <button name="reset-luas">Reset</button>
                 </form>
             </div>

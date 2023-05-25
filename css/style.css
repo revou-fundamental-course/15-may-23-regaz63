@@ -1,5 +1,6 @@
 body {
     background: #d3d3d336;
+    font-family: sans-serif;
 }
 
 header {
@@ -7,6 +8,33 @@ header {
     text-align: center;
     padding: 20px 20px;
 }
+
+.pembuka {
+    text-align: center;
+}
+
+.kotak-persegi {
+    background: #0469dd;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 5px;
+
+}
+
+.figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
+
+.rumus-luas {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 input {
     width: 100%;
     box-sizing: border-box;
@@ -24,14 +52,4 @@ input {
 
 .card {
     background: white;
-}
-
-.example-square {
-    border: 1px solid red;
-    height: 20px;
-    width: 20px;
-}
-
-.result-luas {
-    visibility: hidden;
 }
