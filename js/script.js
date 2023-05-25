@@ -6,4 +6,5 @@ function hitungluas() {
     document.getElementById("output-luas").innerHTML = hasil;
     document.getElementById("perhitungan-luas").innerHTML = sisiluas;
     document.getElementById("perhitungan-luas2").innerHTML = sisiluas;
+    console.log(hasil);
 }
